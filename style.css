@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(48, 175, 248);
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0;
+}
+.menu {
+text-align: right;
+background-color: rgb(159, 150, 214);
+height: 30px;
+
+
+}
+.menu a{
+    color: rgb(172, 37, 37);
+    font-size: 20px;
+    font-style: oblique;
+     border: 10px;
+     text-decoration: none;
+     border-bottom: 2px;
+     transition: color 0.3s;
+     margin: 0 25px;
+     
+}
+
+header.menu a:hover{
+    color: rgb(9, 9, 49);
+    
+
+
+}
+.img img{
+    border-radius: 100%;
+    width: 300px;
+    border: solid;
+    border-color: aliceblue;
+    box-shadow: springgreen;
+    align-items: center;
+   
+
+}
+h1{
+    font-size: 20px;
+}
+
+#loc,#ab,#cont{
+    width: 50vh;
+    height: 30vh;
+    background-color: rgb(204, 150, 150);
+    position:absolute;
+    left: 120vh;
+    display: none;
+    margin: 70px;
+    margin-left: 90px;
+    border-radius:100px ;
+    margin-right: 400px;
+
+    
+}
+
+
+.profile-box{
+    
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    margin: 50px auto;  margin: 50px auto; 
+    padding: 50px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: rgb(214, 114, 161);
+}
+.container-box{
+    text-align: center;
+    background-color: aliceblue;
+    padding-bottom: 400px;
+    padding-right: 0000px;
+    border: 100px;
+    margin: 190px;
+    border-radius: 400px;
+    margin-right: 800px;
+    height: 000px;
+    width: 700px;
+    margin: 200px; ;
+
+}
+
+    .menu a:hover{
+        background-color: blue;
+    }
+    .hire-btn{
+        margin: 500px;
+    }
+    .shop{
+        margin: 30px;
+        border: 10px;
+        padding-bottom: 10px;
+        color: aliceblue;
+        background-color: aliceblue;
+        padding-right: 100px,100px;
+        border-radius: 10px;
+        
+    }
+    

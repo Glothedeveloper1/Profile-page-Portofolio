@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Shopping List</h1>
+    <div id="availableItems">
+      <h3>Foodstuff</h3>
+      <ul>
+        <li>Milk - $2.50 <button class="addButton" data-name="Milk" data-price="2.5">Add to Cart</button></li>
+        <li>Bread - $1.75 <button class="addButton" data-name="Bread" data-price="1.75">Add to Cart</button></li>
+      </ul>
+      
+      <h3>Clothing</h3>
+      <ul>
+        <li>T-Shirt - $15.00 <button class="addButton" data-name="T-Shirt" data-price="15.0">Add to Cart</button></li>
+        <li>Jeans - $25.00 <button class="addButton" data-name="Jeans" data-price="25.0">Add to Cart</button></li>
+        <li>Jacket - $50.00 <button class="addButton" data-name="Jacket" data-price="50.0">Add to Cart</button></li>
+      </ul>
+
+      
+      <h3>Household Equipment</h3>
+      <ul>
+        <li>Blender - $35.00 <button class="addButton" data-name="Blender" data-price="35.0">Add to Cart</button></li>
+        <li>Microwave - $100.00 <button class="addButton" data-name="Microwave" data-price="100.0">Add to Cart</button></li>
+        <li>Vacuum Cleaner - $80.00 <button class="addButton" data-name="Vacuum Cleaner" data-price="80.0">Add to Cart</button></li>
+      </ul>
+    </div>
+   
+
+
+    
+    <div id="shoppingCart">
+      <h2>Your Cart</h2>
+      <ul id="cartList"></ul>
+      <div id="totalPrice">Total Price: $0.00</div>
+    </div>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
